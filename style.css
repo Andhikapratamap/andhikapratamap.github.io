@@ -14,40 +14,34 @@
 									  height:auto;
 									
 							 }
-					.l {background-color:#2D2D2D;
-							color:white;
-							text-size:27px;ook0
-							padding:20px;
-							font-family:roboto;
-							}
-				ul {
- 			                list-style-type: none;
-  					margin: 0;
-  					padding: 0;
-  					overflow: hidden;
-  					background-color:#0070FF;
-					 border-radius:50px;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
 }
 
-li {
-  float:left;
-  height:100px;
-  font-size:30px;
-}
-li a {
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
   display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
-  padding:20px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size:30px;
-  font-height:30px;
+  font-size: 17px;
 }
 
-/* Change the link color to #8B8B8B on hover */
-li a:hover {
-  background-color: #202020;
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
 .art{background-color:#4D9DFF;
 	 color:white;
 	text-align:center;
