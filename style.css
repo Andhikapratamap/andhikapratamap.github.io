@@ -21,23 +21,24 @@
 							font-family:roboto;
 							}
 				ul {
- 						 list-style-type: none;
+ 			                list-style-type: none;
   					margin: 0;
   					padding: 0;
   					overflow: hidden;
   					background-color:#0070FF;
-					  border-radius:50px;
+					 border-radius:50px;
 }
 
 li {
   float:left;
   height:100px;
+  font-size:30px;
 }
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding:18px;
+  padding:20px;
   text-decoration: none;
   font-size:30px;
 }
