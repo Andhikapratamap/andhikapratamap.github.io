@@ -78,6 +78,33 @@
   display: block;
   text-align: left;
 }
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
 
 
 .art{background-color:#4D9DFF;
