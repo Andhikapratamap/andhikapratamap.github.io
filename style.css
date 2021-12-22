@@ -1,0 +1,437 @@
+body {background-color:#707070;
+      color:white;
+}
+				.head {
+							position:relative;
+							color:white;
+							font-size:24px;
+							padding:3px;
+  					 text-align: center;
+  					 font-family:helvetica;
+						}
+						.headr {padding:3px 3px;
+						        width:339px;
+								   	  height:auto;
+									
+							 }
+							 /*ini navbar*/
+					.l {background-color:2;
+							color:white;
+							text-size:27px;
+							padding:20px;
+							font-family:helvetica;
+							}
+				ul {
+ 						 list-style-type: none;
+  					margin: 0;
+  					padding: 0;
+  					overflow: hidden;
+  					background-color:#2b2b2b;
+					  border-radius:50px;
+}
+
+li {
+  float:left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:18px 18px 18px;
+  text-decoration: none;
+  font-size:16px;
+}
+
+/* Change the link color to #8B8B8B on hover */
+li a:hover {
+  background-color: #0070FF;
+}
+.art{background-color:#2b2b2b;
+	 color:white;
+	text-align:center;
+	padding:50px;
+	text-size:24px;
+	font-family:sans-serif;
+	border-radius:10px;
+}
+.s		{align:center;
+			height:150px;
+			width:150px;
+			border-radius: 100px;
+    	-webkit-border-radius: 100px;
+    	-moz-border-radius: 100px;
+   	  padding:10px;
+    							}
+  
+    .yt 	{width:247px;
+    			height:200px;
+    			posisition:relative;
+    }
+   
+    .link	{align:center;
+    			font-family:helvetica;
+    			background-color:#eeff08;
+    }
+    .ft		{align:center;
+    			 background-color:#404040;
+    			font-size:16px;
+    			}
+    .p {font-family:sans-serif;
+    	  color:white;
+    	 font-size:26px;
+    	 text-decoration:none;
+    	 background-color:#0070FF;
+    	 border-radius:10px;
+    	 margin:10px;
+    	
+    	 
+    }
+    .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#2b2b2b;
+  color: white;
+  text-align: center;
+  height:20px;
+  font-size:16px;
+}
+.a {color:white;
+	text-size:11px;
+	text-decoration:none;
+}
+.landing {background-color:black;
+				border-radius:10px;
+				color:white;
+				font-size:15px;
+				text-align:center;
+				padding:10px;
+				}
+.internet{color:white;
+				font-family:bebas;
+				font-style:bold;
+				font-size:16px;
+				text-decoration:none;
+				}
+.html {color:white;
+       font-family:bebas;
+       font-style:bold;
+       font-size:16px;
+       text-decoration:none;
+}
+from {position:relative;
+transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+    
+}
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+form:hover,
+form:valid{
+    width: 200px;
+    cursor: pointer;
+}
+form:hover input,
+form:valid input{
+    display: block;
+}
+form:hover .fa,
+form:valid .fa{
+    background: #0070FF;
+    color: white;
+}
+/*ini style card index*/
+			.card {background-color:white;
+			       color:black;
+			       border-radius:10px;
+			       padding:3px;
+			       text-decoration:none;
+			       font-size:9px;
+			       font-family:helvetica;
+			       margin:0px;
+			       box-shadow:grey,4px;
+			}
+			.card p {font-family:helvetica;
+			         font-size:11px;
+			         color:white;
+			         text-decoration:none;
+			         text-align:center;
+			         padding:10px;
+			}
+			 .card img {height:200px;
+			            width:200px;
+			            padding:3px;
+			       	    webkit-border-radius:10px;
+			            
+			 }
+			 .button {text-decoration:none;
+			          color:white;
+			          background-color:black;
+			          border-radius:5px;
+			          padding:4px;
+			          font-size: 20px;
+			 }
+			  /* Change the link color to #8B8B8B on hover */
+  .button:hover {
+  background-color: #0070FF;
+}
+			 .card-text {font-family:helvetica;
+			        				 font-size:5px;
+			      				   color:white;
+			     				    text-decoration:none;
+			    				     text-align:center;
+			     				    background-color:#2b2b2b;
+			  				       border-radius:10px;
+			 				        padding:4px;
+			        
+			         
+			 }
+			 .card-title{font-size: 23px;
+			            font-style:bold;
+			            text-align: center;
+			 }
+			 hr {border-color:black;
+			     height:3px;
+			     background-color:white;
+			 }
+			 .arti a {text-decoration:none;
+			  						border-radius:10px;
+			  						font-family:helvetica;
+			  						display:flex;
+			  						overflow:hidden;
+			  						background-color:#707070;
+			  						padding:17px;
+			  						color:white;
+			  						margin:8px;
+			 }
+			 .df {padding:7px;
+			 					background-color:black;
+			 					color:white;
+			 					font-family:helvetica;
+			 					margin:5px;
+			 }
+			 .page {animation: bounce;
+			 							padding:7px;
+			 							text-decoration:none;
+			 							width:300px;
+			 }
+			 .bs {height:200px;
+			     width:200px;
+			     padding:3px;
+			     align:center;
+			 }
+			 .card-art {background-color:#2b2b2b;
+			            padding:20px;
+			            border-radius:7px;
+			            color:white;
+			 }
+			 .ab {background-color:black;
+			      font-family:helvetica;
+			      color:white;
+			      padding:10px;
+			      font-size:14px;
+			      border-radius:8px 8px 0px 0px;
+			      animation-name: basicAnimation;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count:none;
+			 }
+			 @keyframes basicAnimation {
+        0% {
+          opacity: 0;
+          width: 0;
+        }
+        100% {
+          opacity: 1;
+          width: 99%;
+        }
+      }
+			 .saya {height:150px;
+			        width:150px;
+			        border-radius:50px;
+			        padding:20px;
+			        margin-top:9px;
+			        margin-bottom:9px;
+			        padding-top:9px ;
+			        padding-bottom:9px;
+			 }
+			 .comment {background-color:#2b2b2b;
+			           font-size:13px;
+			           text-decoration:none;
+			           padding:4px;
+			 }
+			  /* Change the link color to #8B8B8B on hover */
+  .arti a :hover {
+  background-color: #0070FF;
+}
+.bio {background-color:black;
+      font-family:courier;
+      color:white;
+      padding:10px;
+      border-radius:10px;
+      margin:20px;
+      animation-name: slideLeft;
+        animation-duration: 4s;
+      
+}
+@keyframes slideLeft {
+        0% {
+          transform: translateY(-100%);
+          visibility: visible;
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+.p artikel {padding:17px;
+            font-family:helvetica;
+            font-size:18px;
+            margin:10px;
+}
+.con {background-color:#2b2b2b;
+      padding:10px;
+      margin:8px;
+      font-size: 12px;
+      font-family:helvetica;
+      border-radius: 8px  8px 8px 8px;
+      text-align: right;
+}
+/*ini stye artikel*/
+.daftarisiart {background-color:white;
+                     color:black;
+                     padding:10px;
+                     font-size:16px;
+                     border-radius:10px;
+                     }
+        .part {font-size:20px;
+               color:white;
+               padding:3px;
+               text-align: left;
+               margin-left:2px;
+               margin-right:2px;
+        }
+        .linka {color:#0070FF;
+                font-style:bold;
+                text-decoration:none;
+                    }
+            .logo {background-color: white;
+                   padding: 10px;
+                   border-radius: 10px;
+            }
+   /*ini style from login*/
+   	h1 {font-family:helvetica;
+    	    color:white;
+    	    text-align:center;
+    	    font-size:27px;
+    	}
+    	.frommasuk {background-color:#2b2b2b;
+    	            border-radius:10px;
+    	            padding:10px;
+    	            color:white;
+    	            font-family:helvetica;
+    	}
+    .frommasuk h2	  {color:white;
+                     font-family:helvetica;
+                     text-align:center;
+                        text-decoration:bold;
+                        font-size:20px;
+    	}
+    	.frommasuk a {background-color:black;
+    	              color:white;
+    	              border-radius:12px;
+    	              padding:7px;
+    	              text-decoration:none;
+    	              font-family:helvetica;
+    	              transition-duration:0,4s;
+    	}
+    	.frommasuk input{border-radius:10px;
+    	                 border-color:#2b2b2b;
+    	                 border-bottom:white;
+    	}
+    	.linkfrom a {background-color:#2b2b2b;
+    										text-decoration:none;
+    										color:white;
+    										border-radius:10px;
+    										padding:10px;
+    										margin:0;
+    	}
+    	.xc {background-color: white;
+    	     color:blue;
+    	     text-decoration: none;
+    	     vertical-align: left;
+    	     padding:10px;
+    	     margin:9px;
+    	     font-size:20px;
+    	     border-radius: 10px;
+    	}
+    	#typing {
+            width: 0ch;
+            color: white;
+            float: left;
+            padding:10px;
+            font-family: sans-serif;
+            font-weight:bold;
+            font-size: 18px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 5s steps(22) 1s infinite;
+            }
+            #typing span{
+            color:#0070FF;}
+            #line {
+            float: left;
+            color: white;
+            font-weight:bold;
+            font-size: 60px;
+            animation: crow 0.5s linear 0s infinite;
+            }
+            @keyframes typing {
+            from {
+            width: 0ch;
+            }
+            to {
+            width: 25ch;
+            }
+            }
+            @keyframes crow {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 1;
+            }
+            }
