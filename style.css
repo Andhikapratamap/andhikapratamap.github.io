@@ -22,12 +22,12 @@ body {background-color:#707070;
 							font-family:helvetica;
 							}
 				ul {
- 						 list-style-type: none;
+ 					 list-style-type: none;
   					margin: 0;
   					padding: 0;
   					overflow: hidden;
   					background-color:#2b2b2b;
-					  border-radius:50px;
+					 border-radius:50px;
 }
 
 li {
@@ -47,34 +47,34 @@ li a:hover {
   background-color: #0070FF;
 }
 .art{background-color:#2b2b2b;
-	 color:white;
+ color:white;
 	text-align:center;
 	padding:50px;
 	text-size:24px;
 	font-family:sans-serif;
 	border-radius:10px;
 }
-.s		{align:center;
-			height:150px;
-			width:150px;
-			border-radius: 100px;
+.s	{align:center;
+		height:150px;
+		width:150px;
+		border-radius: 100px;
     	-webkit-border-radius: 100px;
     	-moz-border-radius: 100px;
    	  padding:10px;
     							}
   
     .yt 	{width:247px;
-    			height:200px;
-    			posisition:relative;
+    		height:200px;
+    		posisition:relative;
     }
    
     .link	{align:center;
-    			font-family:helvetica;
-    			background-color:#eeff08;
+    		font-family:helvetica;
+    		background-color:#eeff08;
     }
     .ft		{align:center;
-    			 background-color:#404040;
-    			font-size:16px;
+    		 background-color:#404040;
+    		font-size:16px;
     			}
     .p {font-family:sans-serif;
     	  color:white;
@@ -102,17 +102,17 @@ li a:hover {
 	text-decoration:none;
 }
 .landing {background-color:black;
-				border-radius:10px;
-				color:white;
-				font-size:15px;
-				text-align:center;
-				padding:10px;
+	border-radius:10px;
+	color:white;
+	font-size:15px;
+	text-align:center;
+	padding:10px;
 				}
 .internet{color:white;
-				font-family:bebas;
-				font-style:bold;
-				font-size:16px;
-				text-decoration:none;
+	font-family:bebas;
+	font-style:bold;
+	font-size:16px;
+	text-decoration:none;
 				}
 .html {color:white;
        font-family:bebas;
@@ -157,13 +157,13 @@ li a:hover {
   background-color: #0070FF;
 }
 			 .card-text {font-family:helvetica;
-			        				 font-size:5px;
-			      				   color:white;
-			     				    text-decoration:none;
-			    				     text-align:center;
-			     				    background-color:#2b2b2b;
-			  				       border-radius:10px;
-			 				        padding:4px;
+			        	 font-size:5px;
+			      			  color:white;
+			     			    text-decoration:none;
+			    			     text-align:center;
+			     			    background-color:#2b2b2b;
+			  		       border-radius:10px;
+			 	        padding:4px;
 			        
 			         
 			 }
@@ -185,12 +185,12 @@ li a:hover {
 			  						color:white;
 			  						margin:8px;
 			 }
-			 .df {padding:7px;
-			 					background-color:black;
-			 					color:white;
-			 					font-family:helvetica;
-			 					margin:5px;
-                                           border-radius:10px;
+			 .df {
+			   background-color:black;
+			 	color:white;
+			 		font-family:helvetica;
+				margin:5px;
+                            border-radius:10px;
                             padding:10px;
 			 }
 		 .page {animation: bounce;
