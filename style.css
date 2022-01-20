@@ -190,8 +190,10 @@ li a:hover {
 			 					color:white;
 			 					font-family:helvetica;
 			 					margin:5px;
+                                           border-radius:10px;
+                            padding:10px;
 			 }
-			 .page {animation: bounce;
+		 .page {animation: bounce;
 			 							padding:7px;
 			 							text-decoration:none;
 			 							width:300px;
