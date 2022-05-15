@@ -44,27 +44,32 @@
    
         <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel"></h5>
         
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" class="btn-close text-danger text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body bg-dark">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-        	<div class="kotak rounded"
+        	<br>
+        	<div class="kotak text-danger rounded pt-1">
+        		<h1 class="text-center">Project On Going 🐣</h1>
+        	</div>
+        	<br>
+        	<div class="kotak rounded pt-4">
           <li class="nav-item">
-            <a class="nav-link btn btn-outline-light text-warning" aria-current="page" href="#">Al Quran</a>
+            <a class="nav-link btn btn-outline-light px-2 text-warning" aria-current="page" href="alquran.html">Al Quran</a>
             <p class="text-danger pt-2 px-2">masih dalam pengembangan repo ada di 👉<a href="#" class="text-decoration-none abby">Github</a>
             	<p class="text-light px-3">Hai🖐Saya mencoba membuat web apps Al Quran menggunakan
              <span class="text-primary">Bootstrap5</span> dan <span class="text-warning">Vanilla Js</span>, untuk API nya saya menggunakan API buatan <a href="#" class="text-info text-decoration-none">E-Quran.id</a>.Sumber utama dari data yang terdapat pada API ini adalah Aplikasi Quran <a href="#" class="hijau text-decoration-none">Kementerian Agama Republik Indonesia</a> dan audio murottal <a href="#" class="abby text-decoration-none">Misyari Rasyid Al-'Afasi</a>.</p>
             </p>
           </li>
           </div>
-          <li class="nav-item pt-3">
-            <a class="nav-link btn btn-outline-light text-danger" href="#">Home🏡</a>
+          <li class="nav-item pt-4">
+            <a class="nav-link btn btn-outline-light text-danger" href="index.html">Home🏡</a>
           </li>
            <li class="nav-item pt-1">
-          	<a class="nav-link text-danger btn btn-outline-light">Award🏆</a>
+          	<a href="award.html" class="nav-link text-danger btn btn-outline-light">Award🏆</a>
           </li>
-          <li class="nav-item">
-          	<a href="al-quran.html" class="nav-link text-danger btn btn-outline-light">Friends🌿</a>
+          <li class="nav-item  pt-1">
+          	<a href="friends.html" class="nav-link text-danger btn btn-outline-light">Friends🌿</a>
           </li>
         </ul>
         
@@ -190,13 +195,14 @@
   <!--ini progress-->
   <div class="container pt-3 pb-3">
   	<h1 class="text-center text-light">My Skills🌳</h1>
-  	<div class=" bg-light container rounded">
-  	<codersrank-skills-chart branding-boolean="false"
+  	<div class=" bg-secondary container rounded pb-2">
+  		<br>
+  	<codersrank-skills-chart branding-boolean="false" class="bg-secondary"
   	description="true"
   	username="andhikapratamap"
   	labels
    legend
-   tooltip
+   tooltip 
   	></codersrank-skills-chart>
   	</div>
   	<!--ini akhir chart-->
@@ -205,8 +211,8 @@
   	
    <h1 class="text-light text-center pt-3">Project🌿</h1>
    <hr>
-   <div class="bg-light rounded px-2 pt-2">
-   <codersrank-portfolio username="andhikapratamap"></codersrank-portfolio>
+   <div class="bg-secondary rounded px-2 pt-2">
+   <codersrank-portfolio class="bg-secondary" username="andhikapratamap"></codersrank-portfolio>
    </div>
    
 
